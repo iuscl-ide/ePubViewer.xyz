@@ -1,0 +1,214 @@
+/* 	╭────────────────────────────────────╮ */
+/* 	│ ePubViewer - © 2018 epubviewer.xyz │ */
+/* 	╰────────────────────────────────────╯ */
+
+.epv-top-panel {
+	height: calc(48px + 15px);
+	max-height: calc(48px + 15px);
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+
+.epv-navbar {
+	height: 48px; 
+	max-height: 48px;
+	padding: 8px;
+}
+
+.epv-navbar-panel {
+	width: 800px;
+	max-width: 800px;
+	min-width: 360px;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	height: 32px;
+    max-height: 32px;	
+}
+
+.epv-main-panel {
+	padding-top: calc(48px + 15px);
+	width: 800px;
+	text-align: justify;
+}
+
+.epv-separator-panel {
+	height: 32px;
+    max-height: 32px;	
+}
+
+.epv-separator-above {
+	padding-top: 64px;
+}
+
+.epv-logo-xyz-img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background-size: cover;
+	background-image: url(../img/32x32.png);
+	margin-right: 8px;
+}
+
+.epv-logo {
+	display: inline-block;
+	font-family: Cabin;
+	font-size: 32px;
+	line-height: 32px;
+    vertical-align: top;	
+}
+
+.epv-btn {
+    width: 9rem;
+    font-family: 'Rubik';
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0;
+    text-align: center;
+    margin-left: 4px;
+    color: #fff !important;
+}
+
+
+
+html, body {
+	height: 100vh;
+}
+    
+body {
+	background-color: white;
+	margin: 0;
+	font-family: 'Rubik';
+	font-size: 16px; 
+}
+
+.label-allcaps {
+    font-family: 'Alegreya Sans SC';
+}
+
+.label-title {
+    font-family: 'Cabin';
+}
+
+.btn-epb {
+	width: 100%;
+	font-family: 'Rubik';
+	font-size: 15px; 
+}
+
+.btn-epvt {
+	width: 3rem;
+	font-family: 'Rubik';
+	font-size: 15px; 
+}
+
+.cursor-magnify {
+	cursor: zoom-in;	
+}
+
+.cursor-hand {
+	cursor: pointer;
+}
+
+.list-group-item {
+    padding-right: 2.25rem;
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.bodyUnderNav {
+ 	height: calc(100% - 48px) !important;
+	display: block;
+}
+
+.readUnderNav {
+	display: block;
+	overflow: overlay !important;
+}
+
+/* -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+/* 	//font-family: "Helvetica Neue",Arial,sans-serif"; */
+/* 	//font-family: Calibri, 'Lucida Grande', FreeSans; */
+
+
+.x-focus:focus {
+	box-shadow: 0 0 0 0.2rem rgba(52,58,64,.5);	
+}
+
+/* .custom-select { */
+/*     margin-bottom: 6px; */
+/* } */
+
+.custom-select:focus {
+    border-color: rgba(52,58,64,.5);
+    box-shadow: 0 0 0 0.2rem rgba(52,58,64,.5);
+}
+
+.custom-input-text:focus {
+    border-color: rgba(52,58,64,.5);
+    box-shadow: 0 0 0 0.2rem rgba(52,58,64,.5);
+    margin-bottom: .5rem!important;
+}
+
+/*     .list-group{ */
+/*         max-height: 100%; */
+/*         overflow-y: auto; */
+/*         -webkit-overflow-scrolling: touch; */
+/*     }     */
+
+/*     .scrollbar {
+        margin-left: 30px;
+        float: left;
+        height: 300px;
+        width: 65px;
+        background: #fff;
+        overflow-y: scroll;
+        margin-bottom: 25px;
+    }
+    .force-overflow {
+        min-height: 450px;
+    }
+ */
+/*     .scrollbar-primary::-webkit-scrollbar { */
+/*         width: 12px; */
+/*         background-color: #F5F5F5; */
+/*     } */
+
+/*     .scrollbar-primary::-webkit-scrollbar-thumb { */
+/*         border-radius: 10px; */
+/*         box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1); */
+/*         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1); */
+/*         background-color: #4285F4; */
+/*     } */
+.btn-custom {
+	background-color: hsl(207, 36%, 25%) !important;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f81a9",
+		endColorstr="#284256");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#4f81a9),
+		to(#284256));
+	background-image: -moz-linear-gradient(top, #4f81a9, #284256);
+	background-image: -ms-linear-gradient(top, #4f81a9, #284256);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4f81a9),
+		color-stop(100%, #284256));
+	background-image: -webkit-linear-gradient(top, #4f81a9, #284256);
+	background-image: -o-linear-gradient(top, #4f81a9, #284256);
+	background-image: linear-gradient(#4f81a9, #284256);
+	border-color: #284256 #284256 hsl(207, 36%, 19%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.39);
+	-webkit-font-smoothing: antialiased;
+}
+
+#details-content {
+	word-wrap: break-word;
+}
+
+.special-ch {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: bottom;
+}

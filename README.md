@@ -1,3 +1,3 @@
-# ePubViewer.xyz
+# epub-md-viewer.com
 
-Just a **test**
+Website repository, landing page for the application **"ePub MD Viewer"**
